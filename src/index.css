@@ -52,6 +52,26 @@ h3 {
   color: #333;
 }
 
+.submit-btn {
+  text-align: center;
+
+  .submit-not {
+    background-color: #615e5e;
+  }
+
+  button {
+    background-color: #1f5f7a;
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+
+    &&:not(.submit-not):hover {
+      background-color: #233942;
+      cursor: pointer;
+    }
+  }
+}
+
 /* Responsive styles */
 @media (max-width: 600px) {
   .seat {
